@@ -1,11 +1,10 @@
-import { Button } from "./components/ui/button";
+import Navbar from "./components/layout/Navbar";
+
 
 function App() {
   return (
     <>
-      <h1>
-        <Button>submit 2</Button>
-      </h1>
+      <Navbar/>
     </>
   );
 }
